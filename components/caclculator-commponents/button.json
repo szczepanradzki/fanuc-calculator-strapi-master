@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_caclculator_commponents_buttons",
+  "info": {
+    "name": "Button",
+    "icon": "crosshairs"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "css_class": {
+      "type": "string"
+    },
+    "properties": {
+      "type": "json"
+    }
+  }
+}

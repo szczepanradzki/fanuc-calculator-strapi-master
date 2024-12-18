@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "step2_ens",
+  "info": {
+    "name": "Step2_en"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Multimedia_header": {
+      "type": "string"
+    },
+    "Multimedia_background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Multimedia_subtitle": {
+      "type": "string"
+    },
+    "Multimedia_button_description": {
+      "type": "string"
+    },
+    "Multimedia_button_url": {
+      "type": "string"
+    },
+    "sections_ens": {
+      "collection": "sections-en"
+    },
+    "multimedia_personalization": {
+      "type": "dynamiczone",
+      "components": [
+        "personalization.subtitle",
+        "personalization.video-url",
+        "personalization.header",
+        "personalization.backgrand"
+      ]
+    }
+  }
+}

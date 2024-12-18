@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_caclculator_commponents_new_drop_downs",
+  "info": {
+    "name": "NewDropDown",
+    "icon": "balance-scale-left"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "defalut_value": {
+      "type": "decimal"
+    },
+    "ribbon": {
+      "type": "string"
+    },
+    "properities": {
+      "type": "json"
+    },
+    "css_class": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "calculate_id": {
+      "type": "string"
+    }
+  }
+}

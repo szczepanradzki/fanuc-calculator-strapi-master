@@ -1,0 +1,72 @@
+{
+  "kind": "singleType",
+  "collectionName": "step5s",
+  "info": {
+    "name": "Step5"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "multimedia_background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "multimedia_small_title": {
+      "type": "string"
+    },
+    "multimedia_title": {
+      "type": "string"
+    },
+    "multimedia_button_description": {
+      "type": "string"
+    },
+    "sections": {
+      "collection": "section"
+    },
+    "multimedia_subtitle_column1_header": {
+      "type": "string"
+    },
+    "multimedia_subtitle_column1_text": {
+      "type": "string"
+    },
+    "multimedia_subtitle_column2_header": {
+      "type": "string"
+    },
+    "multimedia_subtitle_column2_text": {
+      "type": "string"
+    },
+    "multimedia_subtitle_column3_header": {
+      "type": "string"
+    },
+    "multimedia_subtitle_column3_text": {
+      "type": "string"
+    },
+    "document_file": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "multimedia_personalization": {
+      "type": "dynamiczone",
+      "components": [
+        "personalization.subtitle",
+        "personalization.video-url",
+        "personalization.header",
+        "personalization.backgrand"
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_caclculator_commponents_savings",
+  "info": {
+    "name": "saving",
+    "icon": "balance-scale-right"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}

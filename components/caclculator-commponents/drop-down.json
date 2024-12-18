@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_caclculator_commponents_drop_downs",
+  "info": {
+    "name": "DropDown",
+    "icon": "arrows-alt-v"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "calculation_text": {
+      "type": "string"
+    },
+    "calculation_description": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "pdf",
+  "info": {
+    "name": "PDF"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "page_sections_pl": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-contents.page-section"
+    },
+    "page_sections_en": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-contents.page-section"
+    },
+    "ready": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

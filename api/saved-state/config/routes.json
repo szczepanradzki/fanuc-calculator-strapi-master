@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/saved-states",
+      "handler": "saved-state.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/saved-states/count",
+      "handler": "saved-state.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/saved-states/:id",
+      "handler": "saved-state.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/saved-states",
+      "handler": "saved-state.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/saved-states/:id",
+      "handler": "saved-state.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/saved-states/:id",
+      "handler": "saved-state.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

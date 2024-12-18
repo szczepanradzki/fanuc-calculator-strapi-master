@@ -1,0 +1,14 @@
+module.exports = ({ env }) => ({
+    email: {
+        provider: 'smtp',
+        providerOptions: {
+            host: '127.0.0.1',
+            port: 25,
+            connectionTimeout: 5000,
+        },
+        settings: {
+            from: 'roi@fanucpolska.pl',
+            replyTo: 'roi@fanucpolska.pl',
+        },
+    },
+});

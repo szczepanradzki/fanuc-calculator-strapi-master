@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_categories_headers",
+  "info": {
+    "name": "Header",
+    "icon": "grip-lines"
+  },
+  "options": {},
+  "attributes": {
+    "categories": {
+      "collection": "categories"
+    },
+    "CategoryHeder": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "step1s",
+  "info": {
+    "name": "step1"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "multimedia_title": {
+      "type": "string"
+    },
+    "multimedia_subtitle": {
+      "type": "string"
+    },
+    "multimedia_caption": {
+      "type": "string"
+    },
+    "multimedia_video_url": {
+      "type": "string"
+    },
+    "multimedia_background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "sections": {
+      "collection": "section"
+    },
+    "multimedia_personalization": {
+      "type": "dynamiczone",
+      "components": [
+        "personalization.subtitle",
+        "personalization.video-url",
+        "personalization.header",
+        "personalization.backgrand"
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_categories_subtitles",
+  "info": {
+    "name": "Subtitle",
+    "icon": "exchange-alt"
+  },
+  "options": {},
+  "attributes": {
+    "Subtitle": {
+      "type": "string"
+    },
+    "categories": {
+      "collection": "categories"
+    }
+  }
+}

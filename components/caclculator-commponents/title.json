@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_caclculator_commponents_titles",
+  "info": {
+    "name": "Title",
+    "icon": "angle-up"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    }
+  }
+}

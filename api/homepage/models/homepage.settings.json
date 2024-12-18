@@ -1,0 +1,54 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "name": "homepage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "media_title": {
+      "type": "richtext"
+    },
+    "media_background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "media_link": {
+      "type": "string"
+    },
+    "media_caption": {
+      "type": "string"
+    },
+    "media_button_text": {
+      "type": "string"
+    },
+    "welcome_text": {
+      "type": "richtext"
+    },
+    "Login": {
+      "type": "string"
+    },
+    "register_text": {
+      "type": "string"
+    },
+    "register_link": {
+      "type": "string"
+    },
+    "welcome_header": {
+      "type": "string"
+    },
+    "redirect_link": {
+      "type": "string"
+    }
+  }
+}

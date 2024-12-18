@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_categories_video_urls",
+  "info": {
+    "name": "video-url",
+    "icon": "laptop"
+  },
+  "options": {},
+  "attributes": {
+    "VideoCategories": {
+      "type": "string"
+    },
+    "categories": {
+      "collection": "categories"
+    }
+  }
+}

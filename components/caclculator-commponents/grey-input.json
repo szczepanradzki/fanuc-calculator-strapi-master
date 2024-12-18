@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_caclculator_commponents_grey_inputs",
+  "info": {
+    "name": "GreyInput",
+    "icon": "hand-holding-usd"
+  },
+  "options": {},
+  "attributes": {
+    "defalut_value": {
+      "type": "biginteger"
+    },
+    "description": {
+      "type": "text"
+    },
+    "properities": {
+      "type": "json"
+    },
+    "css_class": {
+      "type": "string"
+    },
+    "calculate_id": {
+      "type": "string"
+    }
+  }
+}

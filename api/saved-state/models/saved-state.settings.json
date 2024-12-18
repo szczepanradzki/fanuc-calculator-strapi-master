@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "saved_states",
+  "info": {
+    "name": "saved_state"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "state": {
+      "type": "component",
+      "repeatable": true,
+      "component": "caclculator-commponents.state"
+    },
+    "savings": {
+      "type": "component",
+      "repeatable": true,
+      "component": "caclculator-commponents.saving"
+    }
+  }
+}

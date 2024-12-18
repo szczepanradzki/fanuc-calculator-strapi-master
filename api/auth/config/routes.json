@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "method": "POST",
+      "path": "/auth/verify-token",
+      "handler": "auth.verifyToken",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

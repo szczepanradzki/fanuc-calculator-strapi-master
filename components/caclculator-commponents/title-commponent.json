@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_caclculator_commponents_title_commponents",
+  "info": {
+    "name": "TitleCommponent",
+    "icon": "font"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "ribon": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "default_value": {
+      "type": "decimal"
+    },
+    "properities": {
+      "type": "json"
+    },
+    "showArrow": {
+      "type": "boolean",
+      "default": false
+    },
+    "calculate_name": {
+      "type": "string"
+    },
+    "calculate_id": {
+      "type": "string"
+    }
+  }
+}

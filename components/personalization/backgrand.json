@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_categories_backgrands",
+  "info": {
+    "name": "Backgrand",
+    "icon": "ticket-alt"
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "categories": {
+      "collection": "categories"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "kind": "singleType",
+  "collectionName": "registration_ens",
+  "info": {
+    "name": "registration_en"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "multimedia_background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "multimedia_title": {
+      "type": "string"
+    },
+    "register_title": {
+      "type": "string"
+    },
+    "register_description": {
+      "type": "richtext"
+    },
+    "multimedia_subtitle": {
+      "type": "string"
+    },
+    "active_button_text": {
+      "type": "string"
+    },
+    "button_text": {
+      "type": "string"
+    },
+    "button_url": {
+      "type": "string"
+    },
+    "document_file": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

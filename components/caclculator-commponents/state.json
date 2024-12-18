@@ -1,0 +1,19 @@
+{
+  "collectionName": "state_elements",
+  "info": {
+    "name": "state",
+    "icon": "chalkboard-teacher"
+  },
+  "options": {},
+  "attributes": {
+    "calculate_id": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}

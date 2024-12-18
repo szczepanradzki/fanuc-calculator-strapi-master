@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_caclculator_commponents_records",
+  "info": {
+    "name": "Record",
+    "icon": "code"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "ribon": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "default_value": {
+      "type": "decimal"
+    },
+    "show_arrows": {
+      "type": "boolean",
+      "default": false
+    },
+    "css_class": {
+      "type": "string"
+    },
+    "properities": {
+      "type": "json"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "calculate_name": {
+      "type": "string"
+    },
+    "calculate_id": {
+      "type": "string"
+    }
+  }
+}

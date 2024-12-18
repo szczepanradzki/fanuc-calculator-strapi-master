@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_page_contents_records",
+  "info": {
+    "name": "Record",
+    "icon": "star-of-life"
+  },
+  "options": {},
+  "attributes": {
+    "fieldName": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "fieldReference": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "textBold": {
+      "type": "boolean"
+    },
+    "valueBold": {
+      "type": "boolean"
+    },
+    "config": {
+      "type": "json"
+    },
+    "rounded": {
+      "type": "boolean"
+    }
+  }
+}

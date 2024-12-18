@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pdf",
+      "handler": "pdf.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pdf",
+      "handler": "pdf.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pdf",
+      "handler": "pdf.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

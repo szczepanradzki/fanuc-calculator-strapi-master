@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/summary-table-en",
+      "handler": "summary-table-en.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/summary-table-en",
+      "handler": "summary-table-en.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/summary-table-en",
+      "handler": "summary-table-en.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

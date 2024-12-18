@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_caclculator_commponents_row_items",
+  "info": {
+    "name": "row_header",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "calculate_id": {
+      "type": "string"
+    },
+    "calculate_name": {
+      "type": "string"
+    },
+    "css_class": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

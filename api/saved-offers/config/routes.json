@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/saved-offers",
+      "handler": "saved-offers.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/saved-offers/count",
+      "handler": "saved-offers.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/saved-offers/:id",
+      "handler": "saved-offers.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/saved-offers",
+      "handler": "saved-offers.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/saved-offers/:id",
+      "handler": "saved-offers.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/saved-offers/:id",
+      "handler": "saved-offers.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

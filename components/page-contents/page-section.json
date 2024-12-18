@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_section_page_sections",
+  "info": {
+    "name": "PageSection",
+    "icon": "list-ul"
+  },
+  "options": {},
+  "attributes": {
+    "pageNumber": {
+      "type": "integer"
+    },
+    "header": {
+      "type": "string"
+    },
+    "subheader": {
+      "type": "string"
+    },
+    "records": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-contents.record"
+    }
+  }
+}

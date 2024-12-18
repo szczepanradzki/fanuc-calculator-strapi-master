@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_caclculator_commponents_border_boxes",
+  "info": {
+    "name": "borderBox",
+    "icon": "poll-h"
+  },
+  "options": {},
+  "attributes": {
+    "attributesList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "caclculator-commponents.attribute"
+    }
+  }
+}

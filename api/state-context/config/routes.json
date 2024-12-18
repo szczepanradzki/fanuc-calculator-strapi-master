@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/state-context",
+      "handler": "state-context.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/state-context",
+      "handler": "state-context.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/state-context",
+      "handler": "state-context.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

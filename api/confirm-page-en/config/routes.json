@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/confirm-page-en",
+      "handler": "confirm-page-en.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/confirm-page-en",
+      "handler": "confirm-page-en.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/confirm-page-en",
+      "handler": "confirm-page-en.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

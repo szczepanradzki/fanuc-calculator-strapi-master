@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "summary_table_ens",
+  "info": {
+    "name": "Summary_table_en"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "years": {
+      "type": "integer"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": true,
+      "component": "caclculator-commponents.row-item"
+    }
+  }
+}

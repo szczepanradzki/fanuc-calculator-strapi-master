@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_caclculator_commponents_calculations",
+  "info": {
+    "name": "Calculation",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "NewDropDown": {
+      "type": "component",
+      "repeatable": true,
+      "component": "caclculator-commponents.new-drop-down"
+    },
+    "calculator_subtitle": {
+      "type": "string"
+    },
+    "logic_operation": {
+      "type": "enumeration",
+      "enum": [
+        "addition",
+        "subtraction",
+        "multiplication"
+      ]
+    },
+    "calculator_description": {
+      "type": "string"
+    },
+    "calculate_name": {
+      "type": "string"
+    },
+    "Records": {
+      "type": "component",
+      "repeatable": true,
+      "component": "caclculator-commponents.record"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "calculate_id": {
+      "type": "string"
+    }
+  }
+}

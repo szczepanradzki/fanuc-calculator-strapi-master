@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/step-1-en",
+      "handler": "step1-en.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/step-1-en",
+      "handler": "step1-en.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/step-1-en",
+      "handler": "step1-en.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

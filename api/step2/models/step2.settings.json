@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "step2s",
+  "info": {
+    "name": "Step2"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "multimedia_heder": {
+      "type": "string"
+    },
+    "multimedia_background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "multimedia_subtitle": {
+      "type": "string"
+    },
+    "multimedia_button_description": {
+      "type": "string"
+    },
+    "multimedia_button_url": {
+      "type": "string"
+    },
+    "sections": {
+      "collection": "section"
+    },
+    "multimedia_personalization": {
+      "type": "dynamiczone",
+      "components": [
+        "personalization.subtitle",
+        "personalization.video-url",
+        "personalization.header",
+        "personalization.backgrand"
+      ]
+    }
+  }
+}

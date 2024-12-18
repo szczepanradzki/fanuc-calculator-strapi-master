@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_caclculator_commponents_state_contexts",
+  "info": {
+    "name": "stateContext",
+    "icon": "crop-alt"
+  },
+  "options": {},
+  "attributes": {
+    "calculateId": {
+      "type": "string"
+    },
+    "fieldName": {
+      "type": "string"
+    }
+  }
+}

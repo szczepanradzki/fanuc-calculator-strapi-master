@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_caclculator_commponents_outcomes",
+  "info": {
+    "name": "Outcome",
+    "icon": "trophy"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "mainResult": {
+      "type": "component",
+      "repeatable": true,
+      "component": "caclculator-commponents.attribute"
+    }
+  }
+}

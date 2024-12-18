@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "saved_offers",
+  "info": {
+    "name": "saved_offers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "document": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "phones_agreement": {
+      "type": "boolean",
+      "default": false
+    },
+    "name": {
+      "type": "string"
+    },
+    "company_name": {
+      "type": "string"
+    },
+    "state": {
+      "type": "component",
+      "repeatable": true,
+      "component": "caclculator-commponents.state"
+    },
+    "calculationName": {
+      "type": "string"
+    },
+    "stateId": {
+      "type": "uid"
+    }
+  }
+}

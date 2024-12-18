@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sections_ens",
+  "info": {
+    "name": "sections_en"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "css_class": {
+      "type": "string"
+    },
+    "categories_values": {
+      "type": "json"
+    },
+    "dynamic_content": {
+      "type": "dynamiczone",
+      "components": [
+        "caclculator-commponents.calculation",
+        "caclculator-commponents.grey-input",
+        "caclculator-commponents.outcome",
+        "caclculator-commponents.additional-box",
+        "caclculator-commponents.border-box",
+        "caclculator-commponents.attribute",
+        "caclculator-commponents.button",
+        "caclculator-commponents.title-commponent"
+      ]
+    }
+  }
+}

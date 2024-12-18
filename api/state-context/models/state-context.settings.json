@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "state_contexts",
+  "info": {
+    "name": "StateContext"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "en": {
+      "type": "component",
+      "repeatable": true,
+      "component": "caclculator-commponents.state-context"
+    },
+    "pl": {
+      "type": "component",
+      "repeatable": true,
+      "component": "caclculator-commponents.state-context"
+    }
+  }
+}
